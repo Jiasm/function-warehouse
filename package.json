@@ -1,0 +1,32 @@
+{
+  "name": "function-warehouse",
+  "version": "0.0.1",
+  "description": "some function",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jiasm/function-warehouse.git"
+  },
+  "author": "jiasm",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jiasm/function-warehouse/issues"
+  },
+  "homepage": "https://github.com/Jiasm/function-warehouse#readme",
+  "devDependencies": {
+    "cz-conventional-changelog": "^1.2.0",
+    "eslint": "^3.9.0",
+    "eslint-config-standard": "^6.2.1",
+    "eslint-plugin-promise": "^3.3.0",
+    "eslint-plugin-react": "^6.4.1",
+    "eslint-plugin-standard": "^2.0.1"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
