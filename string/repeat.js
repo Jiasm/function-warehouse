@@ -1,7 +1,7 @@
 'use strict'
 
 module.exports = (str, len) => {
-  if (len === 0) return ''
+  if (!len) return ''
   if (len === 1) return `${str}`
   if (len === 2) return `${str}${str}`
 
